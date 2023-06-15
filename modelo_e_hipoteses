@@ -1,0 +1,43 @@
+afazeres
+	construir/adquirir corpos de prova
+	fixar sensores
+	extrair manta da cadeira 1.0
+	fixar manta
+	preparar banco de dados para receber dados do experimento
+	fazer circuito que acomode os 8 sensores
+	acoplar circuito na bancada
+	coletar dados
+	fazer analise exploratoria
+	fazer modelos
+	testar hipoteses
+	
+Experimento
+	
+	
+Análise exploratoria
+	- verificar se algum sensor estoura o sinal
+	- plotar variação dos sinais e da estatistica de centro de massa ao longo do tempo
+	- procurar correlações aparentes
+
+modelo 1
+	1.1 
+		modelo linear de prever FSR com celula de carga
+	1.2
+		modelo linear de prever celula de carga com FSR
+modelo 2
+	2.1
+		prever posição da bola com dados da bola e dados dos sensores
+	2.2
+		prever posição da barra com dados da bola e dados dos sensores
+		
+
+------
+
+testar a importancia de cada sensor na regressão
+	adicionar mais fsr's pra verificar a importancia das células de carga
+	
+FSR tá retornando valores sem carga
+	justificar fisicamente por que se deve desconsiderar
+	analisar variância no zero e fora
+	
+
